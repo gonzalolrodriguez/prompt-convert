@@ -14,7 +14,7 @@ do {
             valorARS = parseFloat(prompt("¿Cuantos pesos desea cambiar?"));
             convertCurrency(valorARS);
             alert("Valor: " + convertCurrency(valorARS).toFixed(2));
-            historial.push({
+            history.push({
                 tipo: "divisa",
                 entrada: valorARS + "ARS",
                 salida: convertCurrency(valorARS) + "USD",
